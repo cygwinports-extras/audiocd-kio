@@ -1,0 +1,11 @@
+inherit kde4
+
+NAME="audiocd-kio"
+VERSION=4.10.5
+RELEASE=1
+CATEGORY="KDE"
+SUMMARY="KDE audio CD plugins"
+DESCRIPTION="Part of the KDE multimedia suite"
+OBSOLETES="kde4-multimedia-plugins"
+
+PATCH_URI="4.8.5-libcdio.patch"
